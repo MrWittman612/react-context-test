@@ -1,7 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+import Movie from "./Movie";
 
 const MovieList = () => {
-//  eslint-disable-next-line no-unused-vars
+  //  eslint-disable-next-line no-unused-vars
   const [movies, setMovies] = useState([
     {
       name: "Harry Potter",
@@ -23,7 +24,7 @@ const MovieList = () => {
     <div>
       <h1>hello</h1>
       {movies.map(movie => (
-        <li>{movie.name}</li>
+        <Movie name={movie.name} />
       ))}
     </div>
   );
