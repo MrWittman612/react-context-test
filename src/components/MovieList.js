@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 const MovieList = () => {
-  // eslint-disable-next-line no-unused-vars
+//  eslint-disable-next-line no-unused-vars
   const [movies, setMovies] = useState([
     {
       name: "Harry Potter",
