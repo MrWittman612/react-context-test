@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { MovieContext } from "../context/MovieContext";
+
 const AddMovie = () => {
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
